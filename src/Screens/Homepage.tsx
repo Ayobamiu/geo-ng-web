@@ -5,7 +5,7 @@ import { CallForContribution } from "../Components/CallForContribution";
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-900">
       <Navbar />
       <Jumbotron />
       <CodePlusListTab />

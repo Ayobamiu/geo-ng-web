@@ -31,12 +31,16 @@ const getStateData = () => {
     return {
       key: (index + 1).toString(),
       label: i.name,
+
       children: (
-        <div className="">
+        <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
           <h2 className="mb-2 font-semibold text-gray-900 dark:text-white">
             Local government areas under {i.name}
           </h2>
-          <Collapse items={getItems2()} />
+          <Collapse
+            className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+            items={getItems2()}
+          />
         </div>
       ),
     };
@@ -46,8 +50,12 @@ const getStateData = () => {
 
 const StatesList: React.FC = () => {
   return (
-    <div className="  pb-10">
-      <Collapse items={getStateData()} />
+    <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white  pb-10">
+      <Collapse
+        className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+        items={getStateData()}
+        rootClassName="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+      />
     </div>
   );
 };

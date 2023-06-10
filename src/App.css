@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.ant-collapse-content{
+  background-color: red !important;
+}
+@media (prefers-color-scheme: dark) {
+  .ant-collapse-content, .ant-card {
+      --tw-bg-opacity: 1;
+      background-color: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+    }
+.ant-collapse>.ant-collapse-item >.ant-collapse-header, .ant-card .ant-card-head, .anticon{
+    color: white !important;
+  }
+}

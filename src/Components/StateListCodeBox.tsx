@@ -39,7 +39,7 @@ export default function StateListCodeBox() {
   }
 
   return (
-    <div>
+    <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
       <Card
         type="inner"
         title="States and LGAs in Nigeria"
@@ -47,7 +47,7 @@ export default function StateListCodeBox() {
           <CopyOutlined onClick={copyJSONToClipboard} className="text-lg" />
         }
       >
-        <div className="max-h-[60vh] overflow-scroll">
+        <div className="max-h-[60vh] overflow-scroll bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
           <PrettyPrintJson />
         </div>
       </Card>

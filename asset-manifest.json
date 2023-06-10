@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/geo-ng-web/static/css/main.f1a45301.css",
+    "main.js": "/geo-ng-web/static/js/main.9f104f11.js",
+    "static/js/787.46843b4d.chunk.js": "/geo-ng-web/static/js/787.46843b4d.chunk.js",
+    "static/media/default.svg": "/geo-ng-web/static/media/default.b1f699e15c3b043ef4b3e4dd059e3a90.svg",
+    "index.html": "/geo-ng-web/index.html",
+    "main.f1a45301.css.map": "/geo-ng-web/static/css/main.f1a45301.css.map",
+    "main.9f104f11.js.map": "/geo-ng-web/static/js/main.9f104f11.js.map",
+    "787.46843b4d.chunk.js.map": "/geo-ng-web/static/js/787.46843b4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a45301.css",
+    "static/js/main.9f104f11.js"
+  ]
+}
